@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/ping', (req, res) => {
-  res.send('pong');
+  res.send('pong!');
 });
 
 app.listen(process.env.PORT || 3001, () => {
