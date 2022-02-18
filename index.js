@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.send('hello...');
 });
 
+app.get('/ping', (req, res) => {
+  res.send('pong');
+});
+
 app.listen(process.env.PORT || 3001, () => {
   console.log('Server is running');
 });
