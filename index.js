@@ -6,11 +6,11 @@ app.get('/x', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('hello...');
+  res.send('hello world');
 });
 
 app.get('/ping', (req, res) => {
-  res.send('pong!');
+  res.send('pong');
 });
 
 app.listen(process.env.PORT || 3001, () => {
